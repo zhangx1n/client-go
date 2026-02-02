@@ -1,6 +1,18 @@
 # client-go 源码学习指南
 
 > 本指南面向 Kubernetes 初学者，帮助你系统性地理解 client-go 的架构、核心组件和源码阅读路径。
+>
+> **分专题详细文档请查看 [`docs/`](docs/README.md) 目录：**
+>
+> | 专题 | 文档 | 内容 |
+> |------|------|------|
+> | 学习路线 | [docs/README.md](docs/README.md) | 总索引和阅读建议 |
+> | 阶段 1 | [docs/01-getting-started.md](docs/01-getting-started.md) | 连接 API Server 的基础 |
+> | 阶段 2 | [docs/02-clients.md](docs/02-clients.md) | 三种客户端详解 |
+> | 阶段 3 | [docs/03-informer-mechanism.md](docs/03-informer-mechanism.md) | Informer 机制深度解析 |
+> | 阶段 4 | [docs/04-workqueue.md](docs/04-workqueue.md) | 工作队列详解 |
+> | 阶段 5 | [docs/05-controller-pattern.md](docs/05-controller-pattern.md) | 控制器模式完整实践 |
+> | 阶段 6 | [docs/06-advanced-topics.md](docs/06-advanced-topics.md) | Leader Election / 测试 / 进阶 |
 
 ---
 
